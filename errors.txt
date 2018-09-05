@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/雪野姊妹/chapter_one.rpy", line 69: expected statement.
+    saki.next_name()
+                    ^
+
+File "game/scripts/雪野姊妹/chapter_one.rpy", line 70: expected statement.
+    sakura.next_name()
+                      ^
+
+Ren'Py Version: Ren'Py 7.0.0.196
+Mon Sep 03 20:42:20 2018

@@ -1,0 +1,36 @@
+﻿# The script of the game goes in this file.
+
+# Declare characters used by this game. The color argument colorizes the
+# name of the character.
+
+default player_name = "Player"
+
+define player = Character("[player_name]")
+
+
+# The game starts here.
+
+label start:
+
+    ##############################################
+    #                    31/8                    #
+    ##############################################
+    call yuna_chapter_one from _call_yuna_chapter_one
+    call date_0831_night from _call_date_0831_night
+
+    ##############################################
+    #                    01/9                    #
+    ##############################################
+    call yukino_chapter_one from _call_yukino_chapter_one
+    call date_0901_skl_transition from _call_date_0901_skl_transition
+    call reirou_chapter_one from _call_reirou_chapter_one
+
+    call chiba_chapter_one from _call_chiba_chapter_one
+    call momo_chapter_one from _call_momo_chapter_one
+    call yuri_chapter_one from _call_yuri_chapter_one
+
+    scene bg black with dissolve
+    show text TITLE("END OF DAY 1") at center
+    ""
+
+    return
