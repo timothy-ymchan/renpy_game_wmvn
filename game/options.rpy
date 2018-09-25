@@ -152,6 +152,14 @@ define config.save_directory = "WMVN-1535620365"
 define config.window_icon = "gui/window_icon.png"
 
 
+## Developer ###################################################################
+##
+## This set some developer options
+
+define config.developer = True
+define config.console = True
+define config.editor = True
+
 ## Build configuration #########################################################
 ##
 ## This section controls how Ren'Py turns your project into distribution files.

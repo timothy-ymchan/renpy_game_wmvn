@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/雪野姊妹/chapter_one.rpy", line 69: expected statement.
-    saki.next_name()
-                    ^
-
-File "game/scripts/雪野姊妹/chapter_one.rpy", line 70: expected statement.
-    sakura.next_name()
-                      ^
+File "game/script.rpy", line 17: expected statement.
+    player_name = "new_player"
+                ^
 
 Ren'Py Version: Ren'Py 7.0.0.196
-Mon Sep 03 20:42:20 2018
+Sat Sep 08 14:02:04 2018

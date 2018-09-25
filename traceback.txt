@@ -1,35 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 18, in script call
-    call yuna_chapter_one from _call_yuna_chapter_one
-  File "game/scripts/一島由奈/chapter_one.rpy", line 25, in script
-    yuna "「你沒事吧！」"
-AttributeError: 'ADVCharacter' object has no attribute 'NAME'
+  File "game/script.rpy", line 14, in script
+    $yuna_init()
+  File "game/script.rpy", line 14, in <module>
+    $yuna_init()
+NameError: name 'yuna_init' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 18, in script call
-    call yuna_chapter_one from _call_yuna_chapter_one
-  File "game/scripts/一島由奈/chapter_one.rpy", line 25, in script
-    yuna "「你沒事吧！」"
-  File "D:\RenPy\renpy-7.0.0-sdk\renpy\ast.py", line 652, in execute
-    renpy.exports.say(who, what, interact=self.interact, *args, **kwargs)
-  File "D:\RenPy\renpy-7.0.0-sdk\renpy\exports.py", line 1199, in say
-    who(what, *args, **kwargs)
-  File "D:\RenPy\renpy-7.0.0-sdk\renpy\character.py", line 990, in __call__
-    who = who_pattern.replace("[who]", sub(who))
-  File "D:\RenPy\renpy-7.0.0-sdk\renpy\character.py", line 985, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "D:\RenPy\renpy-7.0.0-sdk\renpy\substitutions.py", line 242, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 652, in get_field
-AttributeError: 'ADVCharacter' object has no attribute 'NAME'
+  File "game/script.rpy", line 14, in script
+    $yuna_init()
+  File "D:\RenPy\renpy-7.0.0-sdk\renpy\ast.py", line 862, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\RenPy\renpy-7.0.0-sdk\renpy\python.py", line 1912, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 14, in <module>
+    $yuna_init()
+NameError: name 'yuna_init' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.0.0.196
 Want to make VisualNovel 戀愛文遊 1.0
-Mon Sep 03 18:13:36 2018
+Sat Sep 08 13:59:51 2018

@@ -55,6 +55,21 @@ image bg skl_rooftop:
     "background/bg skl_rooftop.jpg"
     zoom 1.2
 
+image bg skl_garden_morning:
+    "background/bg skl_garden_morning.jpg"
+    zoom 1.7
+    yalign 0.2
+
+image bg skl_garden_evening:
+    "background/bg skl_garden_evening.jpg"
+    zoom 1.7
+    yalign 0.2
+
+image bg skl_garden_night:
+    "background/bg skl_garden_night.jpg"
+    zoom 1.7
+    yalign 0.2
+
 image bg convenience_store:
     "background/bg convenience_store.jpg"
     zoom 1.2
@@ -66,3 +81,7 @@ image bg park_night:
 image bg yuri_house_night:
     "background/bg yuri_house_night.jpg"
     zoom 1.2
+
+image bg curry_rice:
+    "background/bg curry_rice.jpg"
+    zoom 1.05
